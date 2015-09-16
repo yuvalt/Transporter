@@ -94,6 +94,14 @@ public class TPTaskGroup : TPTask {
             }
         }
     }
+    
+    public override func cancel() {
+        for task in tasks {
+            if task.isRunning {
+                task.cancel()
+            }
+        }
+    }
    
     public func completed(handler: CompletionHandler) -> Self {
         completionHandler = handler
