@@ -30,4 +30,9 @@ public class DownloadTask : TPTransferTask {
         NSLog("[DownloadTask] did resume")
         task?.resume()
     }
+    
+    public override func cancel() {
+        NSLog("[DownloadTask] did cancel")
+        task?.cancel()
+    }
 }
