@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name         = "TransporterSwift"
-  s.version      = "0.1.2"
+  s.version      = "0.1.1"
   s.summary      = "A library makes uploading and downloading easier"
   s.homepage     = "https://github.com/nghialv/Transporter"
   s.license      = { :type => "MIT", :file => "LICENSE" }
