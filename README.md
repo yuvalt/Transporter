@@ -10,7 +10,7 @@
 )](http://mit-license.org)
 [![Issues](https://img.shields.io/github/issues/nghialv/Transporter.svg?style=flat
 )](https://github.com/nghialv/Transporter/issues?state=open)
-
+[![Carthage compatible](https://img.shields.io/badge/Carthage-compatible-4BC51D.svg?style=flat)](https://github.com/Carthage/Carthage)
 
 
 
